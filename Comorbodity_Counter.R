@@ -1,3 +1,5 @@
+# R code used to built a frequency rank table from a list, in this case data corresponds to ICD codes from Hospital Records
+
 sentences<-scan("Comorbilidad.txt","character",sep="\n")
 # Reads a list of ICD Codes from a list
 words.freq<-table(sentences) 
