@@ -1,4 +1,5 @@
 # R code used to built a frequency rank table from a list, in this case data corresponds to ICD codes from Hospital Records
+# This is basically a rehash of https://gist.github.com/yulijia/1857130
 
 sentences<-scan("Comorbilidad.txt","character",sep="\n")
 # Reads a list of ICD Codes from a list
